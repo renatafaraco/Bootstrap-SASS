@@ -1,0 +1,3 @@
+@function calc-font-size($porcent, $font-base) {
+	@return ($porcent/100)*$font-base;
+}

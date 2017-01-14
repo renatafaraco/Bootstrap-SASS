@@ -1,0 +1,6 @@
+@mixin tema-navbar($background-nav: #FFF, $color-nav: #000, $border-nav: 0px solid #000) {
+	background-color: $background-nav;
+	color: $color-nav;
+	border: $border-nav;  
+}
+

@@ -1,0 +1,24 @@
+.navbar-links {
+	float: right;
+	font-size: calc-font-size(70, $navbar-font-base);
+	
+	ul {
+		margin: 5px;
+		float: right;
+		list-style: none;
+		
+		li {
+			display: inline-block;
+
+			a {
+				margin: 2px;
+				padding: 5px;
+				text-decoration: none;
+				@include tema-navbar(#FFF, $navbar-font-color);
+				&:hover {
+					@include tema-navbar($navbar-font-color, #FFF);
+				}
+			}
+		}
+	}
+}

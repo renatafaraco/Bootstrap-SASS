@@ -1,0 +1,37 @@
+.navbar-brand {
+  float: left;
+  font-size: 30px;
+  font-weight: bold; }
+  .navbar-brand p {
+    margin: 0px; }
+
+.navbar-links {
+  float: right;
+  font-size: 21px; }
+  .navbar-links ul {
+    margin: 5px;
+    float: right;
+    list-style: none; }
+    .navbar-links ul li {
+      display: inline-block; }
+      .navbar-links ul li a {
+        margin: 2px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: #FFF;
+        color: #49213e;
+        border: 0px solid #000; }
+        .navbar-links ul li a:hover {
+          background-color: #49213e;
+          color: #FFF;
+          border: 0px solid #000; }
+
+.navbar-nav {
+  background-color: #FFF;
+  color: #49213e;
+  border: 1px solid #49213e;
+  height: 40px;
+  border-color: #49213e;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial; }

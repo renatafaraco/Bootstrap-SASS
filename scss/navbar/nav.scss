@@ -1,0 +1,9 @@
+.navbar-nav {
+	@include tema-navbar(#FFF, $navbar-font-color, 1px solid $navbar-border-color);
+	height: $navbar-height;
+	border-color: $navbar-border-color;
+	padding: 10px;
+	margin: 10px;
+	font-family: $nabar-font-family;
+
+}
